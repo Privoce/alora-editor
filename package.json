@@ -1,5 +1,5 @@
 {
-  "name": "alor-editor",
+  "name": "@Privoce/alora-editor",
   "version": "0.0.1",
   "description": "Rich Text Editor for Alora",
   "author": "WenheLI",
@@ -11,6 +11,7 @@
   "engines": {
     "node": ">=10"
   },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "scripts": {
     "build": "microbundle-crl --no-compress --format modern,cjs",
     "start": "microbundle-crl watch --no-compress --format modern,cjs",

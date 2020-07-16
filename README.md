@@ -15,12 +15,12 @@ npm install --save alor-editor
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'alor-editor'
+import Editor from 'alor-editor'
 import 'alor-editor/dist/index.css'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return <Editor />
   }
 }
 ```
