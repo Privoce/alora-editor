@@ -1,10 +1,10 @@
 {
   "name": "alor-editor",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Rich Text Editor for Alora",
   "author": "WenheLI",
   "license": "MIT",
-  "repository": "WenheLI/alor-editor",
+  "repository": "Privoce/alora-editor",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
@@ -23,8 +23,16 @@
     "predeploy": "cd example && yarn install && yarn run build",
     "deploy": "gh-pages -d example/build"
   },
-  "peerDependencies": {
-    "react": "^16.0.0"
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "lodash.debounce": "^4.0.8",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.1",
+    "rich-markdown-editor": "^10.2.1-0",
+    "uuid": "^8.2.0"
   },
   "devDependencies": {
     "microbundle-crl": "^0.13.10",

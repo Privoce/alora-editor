@@ -1,10 +1,9 @@
 import React from 'react'
 
-import { ExampleComponent } from 'alor-editor'
-import 'alor-editor/dist/index.css'
+import Editor from 'alor-editor'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return <Editor />
 }
 
 export default App
